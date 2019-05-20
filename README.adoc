@@ -1,0 +1,18 @@
+= MapperX
+xiayx <xiayouxue@hotmail.com>
+v1.0, 2019-05-19: SNAPSHOT
+:doctype: docbook
+:toc: left
+:numbered:
+:imagesdir: docs/assets/images
+:sourcedir: src/main/java
+:resourcesdir: src/main/resources
+:testsourcedir: src/test/java
+:source-highlighter: highlightjs
+
+基于"Mybatis Generator"生成的Mapper文件，
+生成一个MapperX文件（实现Mapper类），
+用于添加自定义的方法，
+这样在修改了表结构，
+重新用"Mybatis Generator"生成Mapper文件后，
+可以不影响自定义的方法。

@@ -1,0 +1,10 @@
+description '样章'
+
+compileJava {
+    options.annotationProcessorGeneratedSourcesDirectory = sourceSets.main.java.srcDirs.iterator().next()
+}
+
+dependencies {
+    implementation project(':mapperx-annotations')
+    annotationProcessor project(':mapperx-processors')
+}

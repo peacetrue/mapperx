@@ -1,0 +1,6 @@
+rootProject.name = 'mapperx'
+
+include 'mapperx-annotations'
+include 'mapperx-processors'
+include 'mapperx-sample'
+

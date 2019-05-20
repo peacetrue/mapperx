@@ -1,0 +1,7 @@
+description '注解处理器'
+
+dependencies {
+    implementation project(':mapperx-annotations')
+    implementation 'com.squareup:javapoet:1.11.1'
+    implementation 'ch.qos.logback:logback-classic:1.2.3'
+}
